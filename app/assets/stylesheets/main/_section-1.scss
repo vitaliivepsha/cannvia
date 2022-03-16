@@ -1,0 +1,120 @@
+.main-section{
+  height: 806px;
+  position: relative;
+  margin-bottom: 60px;
+  @media only screen and (max-width: 1399px) {
+    height: 650px;
+    overflow: hidden;
+  }
+  @include bp(sm) {
+    height: 500px;
+    margin-bottom: 30px;
+  }
+  @include bp(xs) {
+    height: auto;
+    padding-bottom: 40px;
+    margin-bottom: 15px;
+  }
+  >img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    @media only screen and (max-width: 1399px) {
+      width: auto;
+    }
+  }
+}
+
+.main-wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 234px;
+  position: relative;
+  z-index: 1;
+  @media only screen and (max-width: 1399px) {
+    padding-top: 180px;
+  }
+  @include bp(md) {
+    padding-top: 160px;
+  }
+  @include bp(sm) {
+    padding-top: 135px;
+  }
+  @include bp(xs) {
+    flex-direction: column;
+    padding-top: 75px;
+  }
+}
+
+.main-left{
+  width: 480px;
+  @include bp(md) {
+    width: 50%;
+  }
+  @include bp(xs) {
+    width: 100%;
+  }
+  .btn{
+    width: 154px;
+    &:hover{
+      color: $accent;
+      background-color: #fff;
+    }
+  }
+}
+
+.main-title{
+  color: #fff;
+  font-family: $title;
+  display: block;
+  margin: 0 0 50px;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 85px;
+  @include bp(md) {
+    font-size: 60px;
+    line-height: 65px;
+  }
+  @include bp(sm) {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  @include bp(xs) {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 25px;
+  }
+}
+
+.main-right{
+  position: relative;
+  width: calc(100% - 480px);
+  @include bp(md) {
+    width: 50%;
+  }
+  @include bp(xs) {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+.main-pic{
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: -57px;
+  max-width: 100%;
+  object-fit: contain;
+  @media only screen and (max-width: 1399px) {
+    width: 515px;
+  }
+  @include bp(md) {
+    top: 0;
+  }
+  @include bp(xs) {
+    position: static;
+  }
+}

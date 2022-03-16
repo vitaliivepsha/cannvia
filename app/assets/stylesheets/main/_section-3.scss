@@ -1,0 +1,88 @@
+.advantages-section{
+  margin-bottom: 50px;
+}
+
+.advantages-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  .col-md-3{
+    @include bp(md) {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.advantages-block{
+  height: 300px;
+  background: url("../images/advantages-bg.png") #fff repeat;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 30px 20px;
+  @include bp(lg) {
+    height: 270px;
+    padding: 20px;
+  }
+  @include bp(md) {
+    height: 300px;
+    padding: 30px 20px;
+  }
+  >div{
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    @include bp(lg) {
+      height: 100px;
+    }
+    @include bp(md) {
+      height: 110px;
+    }
+    @include bp(sm) {
+      height: 100px;
+    }
+  }
+  >p{
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 85px;
+    color: $accent;
+    margin-bottom: 22px;
+    @include bp(lg) {
+      font-size: 60px;
+      line-height: 60px;
+    }
+    @include bp(md) {
+      font-size: 72px;
+      line-height: 85px;
+    }
+    @include bp(sm) {
+      margin-bottom: 15px;
+    }
+    span{
+      font-size: 40px;
+      line-height: 85px;
+      margin-left: 8px;
+      @include bp(lg) {
+        font-size: 32px;
+        line-height: 60px;
+      }
+      @include bp(md) {
+        font-size: 40px;
+        line-height: 85px;
+      }
+    }
+  }
+  >small{
+    font-family: $title;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.7);
+    display: block;
+    text-align: center;
+  }
+}

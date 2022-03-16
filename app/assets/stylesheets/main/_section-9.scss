@@ -1,0 +1,106 @@
+.label-section{
+  position: relative;
+  background-color: #fff;
+  .before{
+    pointer-events: none;
+    position: absolute;
+    top: -124px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    @include bp(lg) {
+      top: -160px;
+    }
+    @include bp(sm) {
+      top: -190px;
+    }
+  }
+  .after{
+    pointer-events: none;
+    position: absolute;
+    bottom: -180px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 1;
+    @include bp(lg) {
+      bottom: -160px;
+    }
+    @include bp(sm) {
+      bottom: -130px;
+    }
+    @include bp(xs) {
+      bottom: -110px;
+    }
+  }
+  .container{
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.label-wrapper{
+  display: flex;
+  @include bp(xs) {
+    flex-direction: column;
+  }
+}
+
+.label-left{
+  padding-left: 135px;
+  padding-top: 170px;
+  @include bp(lg) {
+    padding-top: 65px;
+    width: 70%;
+    padding-left: 65px;
+  }
+  @include bp(md) {
+    padding-top: 65px;
+    width: 65%;
+    padding-left: 15px;
+  }
+  @include bp(sm) {
+    padding-top: 30px;
+  }
+  @include bp(xs) {
+    width: 100%;
+  }
+  .section-title{
+    margin-bottom: 30px;
+  }
+}
+
+.label-info__block{
+  width: 482px;
+  max-width: 100%;
+}
+
+.label-info__text{
+  text-align: justify;
+  p{
+    margin-bottom: 0;
+  }
+}
+
+.label-right{
+  display: flex;
+  justify-content: center;
+  @include bp(lg) {
+    width: 30%;
+  }
+  @include bp(md) {
+    width: 35%;
+  }
+  @include bp(xs) {
+    width: 100%;
+  }
+  img{
+    max-width: 100%;
+    object-fit: contain;
+    @include bp(xs) {
+      width: 220px;
+      display: block;
+      margin: 0 auto 10px;
+    }
+  }
+}

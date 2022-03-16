@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c6d6b3a-a23e-4b1a-8f4b-cdf9097e5be3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/main/_section-10.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/main/_section-7.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/main/_section-8.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/main/_section-9.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/Inter-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/Inter-Regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/Inter-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/Inter-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/Inter-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/Inter-SemiBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/Inter-SemiBold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/Inter-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/Inter-SemiBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/Inter-SemiBold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/about-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/about-01.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/about-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/about-02.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/about-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/about-03.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/about-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/about-04.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/about-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/about-05.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/about-mob.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/about-mob.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/about.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/banner1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/banner1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/banner1__mob.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/banner1__mob.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/banner2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/banner2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/banner3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/banner3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/blog-slide.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/blog-slide.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/contacts-mob.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/contacts-mob.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/contacts.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/contacts.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/arrow-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/arrow-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/clear.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/filter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/insta.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/question.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/triangle-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/zoom.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/logo-milam-chemical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/logo-milam-chemical.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/logo-milam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/logo-milam.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/map-ua.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/not-found-bg-mob.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/not-found-bg-mob.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/not-found-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/not-found-bg.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/prod-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/prod-01.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/prod-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/prod-02.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/prod-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/prod-03.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/prod-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/prod-04.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/prod-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/prod-05.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/prod-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/prod-06.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/prod-07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/prod-07.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/prod-08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/prod-08.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/product-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/product-01.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/product-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/product-02.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/product-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/product-03.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/product-bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/product-slide-main.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/product-slide-main.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/_404.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/_about.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/_catalog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/_categories.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/_contacts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/_mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_mixin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/_partners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/_popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_popup.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/_product.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/breadcrumbs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/breadcrumbs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/main/_section-1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main/_section-1.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/main/_section-2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main/_section-2.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/main/_section-3.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main/_section-3.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/main/_section-4.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main/_section-4.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/main/_section-5.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main/_section-5.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/main/_section-6.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main/_section-6.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/templates/layouts/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/templates/layouts/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/templates/layouts/catalog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/templates/layouts/categories-chosen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/templates/layouts/categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/templates/layouts/contacts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/templates/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/templates/layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/templates/layouts/partners.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/templates/layouts/product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/templates/parts/consult.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/templates/parts/consult.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/templates/parts/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/templates/parts/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/templates/parts/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/templates/parts/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26NsEV2FnMnRwk7t9GQklHCuuGM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/stylesheets/main" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\cannvia\app\assets\stylesheets\main" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c6d6b3a-a23e-4b1a-8f4b-cdf9097e5be3" name="Changes" comment="" />
+      <created>1647275266374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647275266374</updated>
+      <workItem from="1647275269298" duration="4294000" />
+      <workItem from="1647336242338" duration="6000" />
+      <workItem from="1647337263809" duration="20997000" />
+      <workItem from="1647424837245" duration="1241000" />
+      <workItem from="1647427891967" duration="12855000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

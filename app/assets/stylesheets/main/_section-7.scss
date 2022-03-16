@@ -1,0 +1,119 @@
+.cultivation-section{
+  position: relative;
+  background-color: #fff;
+  padding-bottom: 120px;
+  @include bp(md) {
+    padding-bottom: 80px;
+  }
+  @include bp(xs) {
+    padding-bottom: 40px;
+  }
+  .before{
+    position: absolute;
+    top: -163px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    pointer-events: none;
+    @include bp(xs) {
+      top: -180px;
+    }
+  }
+}
+
+.cultivation-wrapper{
+  position: relative;
+  z-index: 1;
+  display: flex;
+  @include bp(sm) {
+    flex-direction: column;
+  }
+}
+
+.cultivation-left{
+  padding-left: 135px;
+  padding-top: 120px;
+  @include bp(lg) {
+    width: 40%;
+    padding-left: 0;
+  }
+  @include bp(sm) {
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 65px;
+    margin-bottom: 40px;
+  }
+  .section-title{
+    margin-bottom: 30px;
+  }
+}
+
+.cultivation-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.7);
+  width: 450px;
+  max-width: 100%;
+  @include bp(sm) {
+    width: 100%;
+  }
+  p{
+    margin-bottom: 0;
+  }
+}
+
+.cultivation-right{
+  padding-left: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  @include bp(lg) {
+    width: 60%;
+  }
+  @include bp(md) {
+    flex-direction: column;
+  }
+  @include bp(sm) {
+    width: 100%;
+    padding-left: 15px;
+  }
+  img{
+    max-width: 100%;
+    object-fit: contain;
+  }
+}
+
+.cultivation-info{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  width: 270px;
+  padding-right: 20px;
+  @include bp(md) {
+    padding-right: 0;
+    width: 250px;
+    transform: none;
+    position: static;
+    margin-top: 20px;
+  }
+  span{
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 85px;
+    margin-right: 10px;
+    color: $accent;
+  }
+  p{
+    margin-bottom: 0;
+    font-family: $title;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.7);
+  }
+}

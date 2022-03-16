@@ -1,0 +1,162 @@
+.consult-section{
+  background: linear-gradient(260.24deg, #006939 17.69%, #169749 112.03%);
+  padding: 280px 0 100px;
+  overflow: hidden;
+  @include bp(lg) {
+    padding: 220px 0 60px;
+  }
+  @include bp(sm) {
+    padding-top: 140px;
+  }
+  @include bp(xs) {
+    padding-top: 90px;
+  }
+}
+
+.consult-wrapper{
+  display: flex;
+  @include bp(md) {
+    flex-direction: column;
+  }
+  .section-pretitle{
+    color: #fff;
+  }
+  .section-title{
+    color: #fff;
+    margin-bottom: 30px;
+  }
+}
+
+.consult-text{
+  max-width: 482px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  margin-bottom: 40px;
+  p{
+    margin-bottom: 0;
+  }
+}
+
+.consult-contacts{
+  @include bp(md) {
+    margin-bottom: 60px;
+  }
+  li{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    @include bp(xs) {
+      margin-bottom: 20px;
+    }
+    >i{
+      display: flex;
+      justify-content: center;
+      width: 88px;
+      min-width: 88px;
+      @include bp(xs) {
+        width: 48px;
+        min-width: 48px;
+        justify-content: flex-start;
+      }
+    }
+    >div{
+      width: calc(100% - 88px);
+      @include bp(xs) {
+        width: calc(100% - 48px);
+      }
+      p{
+        color: #fff;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 100%;
+        margin-bottom: 12px;
+        @include bp(xs) {
+          font-size: 18px;
+          margin-bottom: 8px;
+        }
+      }
+      span{
+        color: #fff;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        @include bp(xs) {
+          font-size: 14px;
+          line-height: 22px;
+        }
+      }
+      a{
+        color: #fff;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        text-decoration: none;
+        &:hover{
+          color: #fff;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.consult-right{
+  position: relative;
+  >svg{
+    pointer-events: none;
+    position: absolute;
+    top: 80px;
+    right: -185px;
+  }
+}
+
+.consult-form{
+  .input-wrapper{
+    position: relative;
+    margin-bottom: 37px;
+    @include bp(xs) {
+      margin-bottom: 30px;
+    }
+    &.comment-wrapper{
+      margin-top: 77px;
+      @include bp(xs) {
+        margin-top: 55px;
+      }
+    }
+    &.active{
+      .input{
+        border-color: $green;
+        +label{
+          font-size: 12px;
+          top: -14px;
+        }
+      }
+    }
+    .input{
+      &:focus{
+        +label{
+          font-size: 12px;
+          top: -14px;
+        }
+      }
+      +label{
+        font-weight: 400;
+        margin-bottom: 0;
+        font-size: 16px;
+        line-height: 28px;
+        color: #fff;
+        transition: linear .2s;
+        position: absolute;
+        left: 0;
+        top: 2px;
+        pointer-events: none;
+      }
+    }
+  }
+  .btn{
+    width: 154px;
+    margin: 0 auto;
+  }
+}

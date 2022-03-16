@@ -1,0 +1,157 @@
+.about-section{
+  padding: 60px 0;
+  @include bp(md) {
+    padding-top: 30px;
+  }
+  @include bp(sm) {
+    padding-top: 15px;
+  }
+  @include bp(xs) {
+    padding-bottom: 30px;
+  }
+}
+
+.about-wrapper{
+  position: relative;
+  display: flex;
+  @include bp(md) {
+    flex-wrap: wrap;
+  }
+  &:before{
+    display: block;
+    position: absolute;
+    content: 'CANNVIA';
+    right: 0;
+    top: 24px;
+    font-weight: 900;
+    font-size: 250px;
+    line-height: 100%;
+    color: rgba(16, 32, 21, 0.06);
+    @include bp(xxl) {
+      font-size: 212px;
+    }
+    @include bp(lg) {
+      font-size: 165px;
+    }
+    @include bp(md) {
+      font-size: 110px;
+      top: 90px;
+    }
+    @include bp(sm) {
+      font-size: 90px;
+      right: 15px;
+    }
+    @include bp(xs) {
+      position: static;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: calc(54px + (24 - 16) * (100vw - 400px) / (800 - 400));
+    }
+  }
+}
+
+.about-logo{
+  @include bp(lg) {
+    width: 35%;
+  }
+  @include bp(md) {
+    width: 100%;
+  }
+  img{
+    max-width: 100%;
+    object-fit: contain;
+    @include bp(md) {
+      width: 320px;
+    }
+    @include bp(sm) {
+      width: 260px;
+    }
+    @include bp(xs) {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+.about-info{
+  padding-top: 180px;
+  @include bp(lg) {
+    width: 45%;
+  }
+  @include bp(md) {
+    width: 70%;
+    padding-top: 60px;
+  }
+  @include bp(xs) {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .section-title{
+    margin-bottom: 30px;
+    @include bp(xs) {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.section-pretitle{
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 100%;
+  color: #3B6900;
+  display: block;
+  margin-bottom: 16px;
+  @include bp(xs) {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+}
+
+.section-title{
+  font-family: $title;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 100%;
+  display: block;
+  color: $black;
+  @include bp(xs) {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+.about-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.7);
+  p{
+    margin-bottom: 0;
+  }
+}
+
+.about-pic{
+  display: flex;
+  justify-content: center;
+  padding-top: 128px;
+  @include bp(lg) {
+    width: 20%;
+  }
+  @include bp(md) {
+    width: 30%;
+    padding-top: 60px;
+  }
+  @include bp(xs) {
+    width: 100%;
+    padding-top: 30px;
+  }
+  img{
+    max-width: 100%;
+    object-fit: contain;
+    @include bp(xs) {
+      width: 220px;
+    }
+  }
+}
