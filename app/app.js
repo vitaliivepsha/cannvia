@@ -3,8 +3,9 @@
 'use strict';
 
 if (process.env.NODE_ENV !== 'production') {
-  require('./assets/templates/layouts/index.html');
-  0;
+    require('./assets/templates/layouts/index.html');
+    require('./assets/templates/layouts/products.html');
+
 }
 
 // Depends
@@ -24,34 +25,34 @@ require('../node_modules/sweetalert2/dist/sweetalert2');
 require('_stylesheets/app.scss');
 
 // Are you ready?
-$(function() {
-  new Forms();
-  new Popup();
-  new LightGallery();
-  new Slider();
+$(function () {
+    new Forms();
+    new Popup();
+    new LightGallery();
+    new Slider();
 
-  setTimeout(function() {
-    $('body').trigger('scroll');
-    $(window).trigger('resize');
-  }, 100);
+    setTimeout(function () {
+        $('body').trigger('scroll');
+        $(window).trigger('resize');
+    }, 100);
 
 
     // fixed header
 
-  var header = $('.header'),
-    scrollPrev = 0;
+    var header = $('.header'),
+        scrollPrev = 0;
 
-  $(window).scroll(function() {
-    var scrolled = $(window).scrollTop();
-    if (scrolled > 60) {
-      header.addClass('fixed');
-    } else {
-      header.removeClass('fixed');
-    }
-    scrollPrev = scrolled;
-  });
+    $(window).scroll(function () {
+        var scrolled = $(window).scrollTop();
+        if (scrolled > 60) {
+            header.addClass('fixed');
+        } else {
+            header.removeClass('fixed');
+        }
+        scrollPrev = scrolled;
+    });
 
-  // mobile menu
+    // mobile menu
 
     var touch = $('.mobile-menu__btn');
     var toggles = document.querySelectorAll('.mobile-menu__btn');
@@ -62,7 +63,7 @@ $(function() {
     }
 
     function toggleHandler(toggle) {
-        toggle.addEventListener('click', function(e) {
+        toggle.addEventListener('click', function (e) {
             e.preventDefault();
             this.classList.contains('active') === true
                 ? this.classList.remove('active')
@@ -70,52 +71,52 @@ $(function() {
         });
     }
 
-    $(touch).click(function(e) {
+    $(touch).click(function (e) {
         e.preventDefault();
         $('body').toggleClass('menu-opened');
         return false;
     });
-    $(document).on('click', '.mobile-menu__btn', function(e) {
+    $(document).on('click', '.mobile-menu__btn', function (e) {
         e.stopPropagation();
     });
-    $(document).on('click', '.mobile-menu__wrapper', function(e) {
+    $(document).on('click', '.mobile-menu__wrapper', function (e) {
         e.stopPropagation();
     });
 
     // input value
 
-  $('.input, .textarea').blur(function() {
-    if ($(this).val()) {
-      $(this).closest('.input-wrapper').addClass('active');
-    }
-    else {
-      $(this).closest('.input-wrapper').removeClass('active');
-    }
-  });
+    $('.input, .textarea').blur(function () {
+        if ($(this).val()) {
+            $(this).closest('.input-wrapper').addClass('active');
+        }
+        else {
+            $(this).closest('.input-wrapper').removeClass('active');
+        }
+    });
 
     // select
 
-  $('.select').SumoSelect({
-    forceCustomRendering: true
-  });
+    $('.select').SumoSelect({
+        forceCustomRendering: true
+    });
 
 
     // lazy load
-  var lazyload = function() {
-    var scroll = $(window).scrollTop() + $(window).height() * 3;
+    var lazyload = function () {
+        var scroll = $(window).scrollTop() + $(window).height() * 3;
 
-    $('.lazy').each(function() {
-      var $this = $(this);
-      if ($this.offset().top < scroll) {
-        $this.attr('src', $(this).data('original'));
-      }
-    });
-    $('.lazy-web').each(function() {
-      var $this = $(this);
-      if ($this.offset().top < scroll) {
-        $this.attr('srcset', $(this).data('original'));
-      }
-    });
-  };
-  $(window).scroll(lazyload);
+        $('.lazy').each(function () {
+            var $this = $(this);
+            if ($this.offset().top < scroll) {
+                $this.attr('src', $(this).data('original'));
+            }
+        });
+        $('.lazy-web').each(function () {
+            var $this = $(this);
+            if ($this.offset().top < scroll) {
+                $this.attr('srcset', $(this).data('original'));
+            }
+        });
+    };
+    $(window).scroll(lazyload);
 });
