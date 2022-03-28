@@ -22,13 +22,25 @@ body {
     display: block;
   }
   &.menu-opened {
-    overflow: hidden;
+    @include bp(sm) {
+      overflow: hidden;
+    }
+
     .header {
       background-color: $green;
     }
+    .header.services {
+      @include bp(sm) {
+        background: $green;
+        transition: 0s;
+      }
+    }
     .mobile-menu__wrapper {
-      display: flex;
-      z-index: 10;
+      display: none;
+      @include bp(sm) {
+        display: flex;
+        z-index: 10;
+      }
     }
   }
 }
@@ -238,3 +250,4 @@ textarea:-webkit-autofill:hover {
 
 // Pages
 @import "products";
+@import "services";

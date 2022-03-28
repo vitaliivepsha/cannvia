@@ -34,6 +34,7 @@
 
 .products-main-title {
   display: block;
+  margin-top: 133px;
   margin-bottom: 29px;
   font-family: $title;
   font-weight: 700;
@@ -43,6 +44,7 @@
   color: #ffffff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
   @include bp(md) {
+    margin-top: 0;
     margin-bottom: 15px;
     font-size: 60px;
     line-height: 65px;
@@ -66,6 +68,9 @@
   text-align: justify;
   color: #ffffff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+  @media (max-width: 767px) {
+    max-width: 470px;
+  }
   & li {
     display: flex;
     font-weight: 400;
@@ -76,6 +81,9 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
     @include bp(sm) {
       font-size: 14px;
+    }
+    @include bp(xs) {
+      font-size: 13px;
     }
     &::before {
       content: "";
@@ -126,9 +134,8 @@
 
 .products-small-list {
   display: flex;
-  padding-top: 65px;
+  padding-top: 64px;
   padding-bottom: 122px;
-  overflow: hidden;
   @media (max-width: 1479px) {
     flex-wrap: wrap;
   }
@@ -176,15 +183,21 @@
 
 .products-small-item {
   display: block;
-  padding-bottom: 16px;
+  padding-bottom: 15px;
   border-radius: 8px;
   background-color: #fafafa;
   overflow: hidden;
+  text-decoration: none !important;
+  &:hover {
+    .products-small-item__title {
+      color: $green;
+    }
+  }
 }
 
 .products-small-item__pic {
   mix-blend-mode: multiply;
-  margin-bottom: 3px;
+  margin-bottom: 15px;
   height: 147px;
   & picture {
     width: 100%;
@@ -205,6 +218,7 @@
   line-height: 100%;
   text-align: center;
   color: $blue;
+  transition: color 0.3s;
 }
 
 // products-catalog
@@ -225,21 +239,43 @@
   }
   & .products-wave-top {
     position: absolute;
-    top: -382px;
+    top: -383px;
+    @media (max-width: 1919px) {
+      top: -283px;
+    }
+    @media (max-width: 1428px) {
+      top: -246px;
+    }
+    @media (max-width: 1245px) {
+      top: -118px;
+    }
+    @media (max-width: 640px) {
+      top: -72px;
+    }
+    @media (max-width: 430px) {
+      top: -55px;
+    }
   }
   & .products-wave-middle {
     position: absolute;
-    top: 25%;
-    width: 100%;
+    top: 24%;
+    z-index: -1;
     @media (max-width: 991px) {
       width: auto;
     }
   }
   & .products-wave-bottom {
     position: absolute;
-    bottom: -25px;
-    min-width: 100%;
-    width: 100%;
+    bottom: 0;
+    @media (min-width: 1921px) {
+      bottom: -80px;
+    }
+    @media (max-width: 1199px) {
+      bottom: 97px;
+    }
+    @media (max-width: 767px) {
+      bottom: 140px;
+    }
   }
   & .row {
     display: flex;
@@ -247,6 +283,7 @@
     justify-content: center;
     & > div {
       min-height: 100%;
+      padding-top: 23px;
     }
   }
 }
@@ -255,15 +292,25 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-bottom: 80px;
-  mix-blend-mode: multiply;
+  padding-bottom: 58px;
   height: 100%;
+  text-decoration: none !important;
+  &:hover {
+    & .products-catalog-item__link {
+      box-shadow: none;
+      background-color: $accent;
+      color: #ffffff;
+    }
+  }
 }
 
 .products-catalog-item__pic {
   height: 480px;
   margin-bottom: 26px;
   mix-blend-mode: multiply;
+  @media (max-width: 574px) {
+    margin-bottom: 10px;
+  }
   & picture {
     width: 100%;
     height: 100%;
@@ -285,6 +332,13 @@
   font-size: 42px;
   line-height: 100%;
   color: $black;
+  @media (max-width: 574px) {
+    margin-bottom: 17px;
+    font-size: 34px;
+  }
+  @media (max-width: 400px) {
+    font-size: 28px;
+  }
 }
 
 .products-catalog-item__about {
@@ -300,6 +354,9 @@
     line-height: 175%;
     color: $text;
     text-align: justify;
+    @media (max-width: 574px) {
+      line-height: 150%;
+    }
   }
   & ul li {
     padding-left: 10px;
@@ -320,6 +377,8 @@
 
 .products-catalog-item__link {
   margin-top: 40px !important;
+  position: relative;
+  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -336,11 +395,5 @@
   color: #ffffff;
   background: $green;
   box-shadow: 10px 10px 10px rgba(12, 37, 7, 0.1);
-  text-decoration: none !important;
-
-  &:hover {
-    box-shadow: none;
-    background-color: $accent;
-    color: #ffffff;
-  }
+  transition: background-color 0.3s;
 }

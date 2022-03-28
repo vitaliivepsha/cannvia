@@ -1,12 +1,14 @@
-.header{
+.header {
   position: fixed;
   z-index: 10;
+  display: flex;
+  align-items: center;
   height: 115px;
   padding: 30px 0;
   left: 0;
   top: 0;
   right: 0;
-  transition: linear .2s;
+  transition: linear 0.2s;
   @include bp(sm) {
     height: 85px;
     padding: 15px 0;
@@ -15,7 +17,7 @@
     height: 60px;
     padding: 10px 0;
   }
-  &.fixed{
+  &.fixed {
     background-color: $green;
     height: 85px;
     padding: 15px 0;
@@ -23,10 +25,10 @@
       height: 60px;
       padding: 10px 0;
     }
-    .header-btn{
+    .header-btn {
       background-color: #fff;
       color: $accent;
-      &:hover{
+      &:hover {
         background-color: $accent;
         color: #fff;
       }
@@ -34,7 +36,39 @@
   }
 }
 
-.header-wrapper{
+.header.services {
+  height: 120px;
+  background: linear-gradient(252.79deg, #56ae33 4.14%, #006939 73.13%);
+  @include bp(sm) {
+    height: 85px;
+    padding: 15px 0;
+  }
+  @include bp(xs) {
+    height: 60px;
+    padding: 10px 0;
+  }
+  &.fixed {
+    height: 85px;
+    padding: 15px 0;
+    @include bp(xs) {
+      height: 60px;
+      padding: 10px 0;
+    }
+  }
+  .header-btn {
+    box-shadow: none;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #ffffff;
+    &:hover {
+      background-color: #fff;
+      color: $accent;
+      box-shadow: 10px 10px 10px rgba(12, 37, 7, 0.2);
+    }
+  }
+}
+
+.header-wrapper {
   height: 55px;
   display: flex;
   justify-content: space-between;
@@ -48,34 +82,34 @@
   }
 }
 
-.header-logo{
+.header-logo {
   width: 197px;
   height: 43px;
   @include bp(xs) {
     width: 160px;
     height: 35px;
   }
-  img{
+  img {
     width: 100%;
     height: 100%;
     object-fit: contain;
   }
 }
 
-.header-right{
+.header-right {
   display: flex;
   align-items: center;
 }
 
-.header-menu{
+.header-menu {
   display: flex;
   align-items: center;
   margin-right: 20px;
   @include bp(sm) {
     display: none;
   }
-  li{
-    a{
+  li {
+    a {
       display: block;
       padding: 15px 25px;
       color: #fff;
@@ -83,22 +117,21 @@
       font-weight: 700;
       font-size: 16px;
       line-height: 19px;
-      &:hover{
+      &:hover {
         color: $accent;
       }
     }
   }
 }
 
-
-.header-btn{
+.header-btn {
   width: 154px;
   @include bp(sm) {
     display: none;
   }
 }
 
-.mobile-menu__btn{
+.mobile-menu__btn {
   display: none;
   overflow: hidden;
   padding: 0;
@@ -165,7 +198,7 @@
   }
 }
 
-.mobile-menu__wrapper{
+.mobile-menu__wrapper {
   display: none;
   width: 100%;
   position: fixed;
@@ -181,7 +214,7 @@
     top: 60px;
     height: calc(100vh - 60px);
   }
-  .btn{
+  .btn {
     margin: 30px auto 0;
     width: 154px;
     background-color: #fff;
@@ -189,9 +222,9 @@
   }
 }
 
-.mobile-menu{
-  li{
-    a{
+.mobile-menu {
+  li {
+    a {
       display: block;
       padding: 15px 25px;
       color: #fff;
@@ -199,7 +232,7 @@
       font-weight: 700;
       font-size: 20px;
       line-height: 22px;
-      &:hover{
+      &:hover {
         color: $accent;
       }
     }
