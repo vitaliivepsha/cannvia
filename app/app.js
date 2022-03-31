@@ -6,6 +6,8 @@ if (process.env.NODE_ENV !== 'production') {
     require('./assets/templates/layouts/index.html');
     require('./assets/templates/layouts/products.html');
     require('./assets/templates/layouts/services.html');
+    require('./assets/templates/layouts/login.html');
+    require('./assets/templates/layouts/registration.html');
 }
 
 // Depends
@@ -20,6 +22,7 @@ var Slider = require('_modules/slider');
 require('../node_modules/sumoselect/jquery.sumoselect.min');
 require('../node_modules/ez-plus/src/jquery.ez-plus');
 require('../node_modules/sweetalert2/dist/sweetalert2');
+require('../node_modules/jquery-validation/dist/jquery.validate.min');
 
 // Stylesheet entrypoint
 require('_stylesheets/app.scss');
@@ -98,6 +101,59 @@ $(function () {
 
     $('.select').SumoSelect({
         forceCustomRendering: true
+    });
+
+    // show/hide password
+
+    $('.show-password').click(function() {
+        if (!$(this).hasClass('active')) {
+            $(this).addClass('active').closest('.input-wrapper').find('.input').attr('type', 'text');
+        } else{
+            $(this).removeClass('active').closest('.input-wrapper').find('.input').attr('type', 'password');
+        }
+    });
+
+    // validation
+
+    $('.validate-form').each(function() {
+        $(this).validate({
+            highlight: function(element) {
+                $(element).parent().addClass('error');
+            },
+            unhighlight: function(element) {
+                $(element).parent().removeClass('error');
+            },
+            rules: {
+                email: {
+                    required: true,
+                },
+                password: {
+                    required: true,
+                },
+                new_password: {
+                    required: true,
+                },
+                re_password: {
+                    required: true,
+                    equalTo: '#new_password'
+                }
+            },
+            messages: {
+                email: {
+                    required: 'Povinné pole',
+                },
+                password: {
+                    required: 'Povinné pole',
+                },
+                new_password: {
+                    required: 'Zadejte nové heslo',
+                },
+                re_password: {
+                    required: 'Odeslat heslo',
+                    equalTo: 'Hesla se neshodují'
+                }
+            }
+        });
     });
 
 

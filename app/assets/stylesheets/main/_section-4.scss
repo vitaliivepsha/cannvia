@@ -40,6 +40,9 @@
     padding: 0;
     text-align: center;
   }
+  @include bp(xs) {
+    padding: 0 15px;
+  }
   .section-pretitle{
     color: #fff;
   }

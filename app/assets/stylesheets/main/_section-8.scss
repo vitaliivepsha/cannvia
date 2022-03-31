@@ -33,12 +33,12 @@
 .formulation-right{
   padding-left: 135px;
   padding-right: 135px;
-  padding-top: 110px;
+  padding-top: 30px;
   @include bp(lg) {
     width: 50%;
     padding-left: 35px;
     padding-right: 0;
-    padding-top: 65px;
+    padding-top: 20px;
   }
   @include bp(md) {
     padding-top: 0;
@@ -46,6 +46,7 @@
   @include bp(sm) {
     width: 100%;
     padding-left: 15px;
+    padding-right: 15px;
   }
   .section-title{
     margin-bottom: 30px;
@@ -64,6 +65,7 @@
 }
 
 .formulation-footnote{
+  margin-top: 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;

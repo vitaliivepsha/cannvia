@@ -130,8 +130,6 @@ main {
   border-radius: 10px;
   outline: none !important;
   position: relative;
-  @include bp(xs) {
-  }
   &:focus {
     text-decoration: none;
     outline: none;
@@ -161,10 +159,13 @@ main {
   font-size: 16px;
   line-height: 28px;
   background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
   &::placeholder {
     color: #fff;
   }
   &:focus {
+    font-size: 16px;
     border-color: $green;
     &::placeholder {
       color: transparent;
@@ -251,3 +252,4 @@ textarea:-webkit-autofill:hover {
 // Pages
 @import "products";
 @import "services";
+@import "login";

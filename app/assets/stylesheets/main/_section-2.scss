@@ -152,6 +152,7 @@
     object-fit: contain;
     @include bp(xs) {
       width: 220px;
+      height: 362px;
     }
   }
 }
